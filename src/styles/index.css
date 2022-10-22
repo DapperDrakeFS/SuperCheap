@@ -1,0 +1,9 @@
+@import "reset.css";
+
+:root {
+  --background: #a0a0a0;
+}
+
+body {
+  background-color: var(--background);
+}
