@@ -1,9 +1,93 @@
 @import "reset.css";
 
 :root {
-  --background: #a0a0a0;
+  --background: #faf9f9;
 }
 
 body {
   background-color: var(--background);
+}
+
+/* app */
+
+.app {
+  display: flex;
+  overflow: hidden;
+  font-size: 1.8rem;
+}
+
+/* Left Side */
+
+.left-side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-side-header {
+  display: flex;
+  align-items: center;
+}
+
+.left-side-content {
+  padding: 2rem;
+  max-width: 80%;
+}
+
+.principal-text {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+/* Right side */
+.right-side {
+  width: 50%;
+  min-height: 100vh;
+  background-image: url("../img/background.svg");
+  background-size: cover;
+  border-radius: 75% 0 0% 75%;
+  position: relative;
+}
+
+.right-side-mercadona {
+  width: 41.6rem;
+  height: 41.4rem;
+  position: absolute;
+  left: -15.93%;
+  right: 47.67%;
+  bottom: 62.85%;
+  top: 0%;
+  transform: rotate(-25.23deg);
+}
+
+.right-side-lidl {
+  width: 41.6rem;
+  height: 26.2rem;
+  position: absolute;
+  top: 65%;
+  right: 55%;
+  transform: rotate(10deg);
+}
+
+.right-side-carrefour {
+  width: 55.6rem;
+  height: 20rem;
+  position: absolute;
+  top: 25.5%;
+  left: 25%;
+  transform: rotate(-24deg);
+}
+
+.right-side-carrefour img {
+  filter:
+    drop-shadow(4px 4px 4px black)
+    drop-shadow(6px 6px 4px black);
+}
+
+.right-side-lidl img {
+  filter: drop-shadow(5px 5px 4px black);
+}
+
+.right-side-mercadona img {
+  filter: drop-shadow(4px 4px 4px black);
 }
