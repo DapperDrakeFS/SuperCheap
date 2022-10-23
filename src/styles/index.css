@@ -1,22 +1,67 @@
 @import "reset.css";
+@import "https://fonts.googleapis.com/css2?family=Chivo:wght@400;900&family=Nunito:wght@400;900&display=swap";
 
+/* Global */
 :root {
-  --background: #faf9f9;
+  --background: #f4f4f4;
 }
 
 body {
   background-color: var(--background);
+  overflow: hidden;
+}
+
+h1 {
+  font-family: Nunito, sans-serif;
+  font-size: 3.6rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+p {
+  font-family: Chivo, sans-serif;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(105 105 201);
+}
+
+ul {
+  font-size: 1.6rem;
+  list-style-type: square;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 /* app */
 
 .app {
   display: flex;
-  overflow: hidden;
-  font-size: 1.8rem;
+  letter-spacing: 0.13rem;
 }
 
 /* Left Side */
+
+.logo {
+  width: 15rem;
+  height: 15rem;
+  margin: 1rem;
+}
+
+.super {
+  font-size: 2.5rem;
+  color: rgb(173 93 93);
+}
+
+.cheap {
+  color: rgb(64 64 142);
+}
 
 .left-side {
   width: 50%;
@@ -30,8 +75,17 @@ body {
 }
 
 .left-side-content {
+  height: 65%;
+  overflow: scroll;
+  margin-left: 2rem;
   padding: 2rem;
   max-width: 80%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #7f7f7f;
 }
 
 .principal-text {
@@ -53,20 +107,11 @@ body {
   width: 41.6rem;
   height: 41.4rem;
   position: absolute;
-  left: -15.93%;
+  left: -10.93%;
   right: 47.67%;
   bottom: 62.85%;
   top: 0%;
   transform: rotate(-25.23deg);
-}
-
-.right-side-lidl {
-  width: 41.6rem;
-  height: 26.2rem;
-  position: absolute;
-  top: 65%;
-  right: 55%;
-  transform: rotate(10deg);
 }
 
 .right-side-carrefour {
@@ -76,6 +121,15 @@ body {
   top: 25.5%;
   left: 25%;
   transform: rotate(-24deg);
+}
+
+.right-side-lidl {
+  width: 41.6rem;
+  height: 26.2rem;
+  position: absolute;
+  top: 65%;
+  right: 55%;
+  transform: rotate(10deg);
 }
 
 .right-side-carrefour img {
