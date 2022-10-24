@@ -97,7 +97,7 @@ ul {
 .right-side {
   width: 50%;
   min-height: 100vh;
-  background-image: url("../img/background.svg");
+  background-image: url("img/background.svg");
   background-size: cover;
   border-radius: 75% 0 0% 75%;
   position: relative;
