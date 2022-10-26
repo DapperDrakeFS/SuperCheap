@@ -15,4 +15,6 @@ De momento SuperCheap se encuentra en fase de desarrollo y va a contar con las s
 
 - [@RomerEnr](https://www.github.com/RomerEnr)
 - [@Racc0on](https://www.github.com/Racc0on)
+- [@JoseCorzo](https://github.com/JoseCorzoR)
+- [@tmpmolina](https://github.com/tmpmolina)
 
